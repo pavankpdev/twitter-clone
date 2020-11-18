@@ -8,9 +8,11 @@
 .post__body {
   flex: 1;
   padding: 10px;
+  max-width: 500px;
 }
 
 .post__body > img {
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -23,6 +25,7 @@
 .post__headerDescription {
   margin-bottom: 10px;
   font-size: 15px;
+  max-width: 500px;
 }
 
 .post__headerText > h3 {

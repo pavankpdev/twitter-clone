@@ -31,10 +31,10 @@ const Post = forwardRef(
           </div>
           <img src={image} alt="" />
           <div className="post__footer">
-            <ChatBubbleOutlineIcon fontSize="small" />
-            <RepeatIcon fontSize="small" />
-            <FavoriteBorderIcon fontSize="small" />
-            <PublishIcon fontSize="small" />
+            <i className="far fa-comment" />
+            <i className="fas fa-retweet" />
+            <i className="far fa-heart" />
+            <i className="fas fa-external-link-alt" />
           </div>
         </div>
       </div>
